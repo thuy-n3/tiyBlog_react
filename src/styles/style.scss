@@ -3,8 +3,128 @@
 	box-sizing: border-box;
 }
 
-h1 {
-	font-size: 300px;
-	text-align: center;
-	color: fuchsia;
+
+
+.align-children {
+	font-size: 0;
 }
+
+.align-children > *{
+	font-size: medium; 
+	display: inline-block;
+	vertical-align: top;
+}
+
+.headerContainer {
+	position: relative; 
+
+	// .skyline{
+	// 	width: 100%;
+	// }
+
+	img.skyLine {
+    width: 100%;
+}
+
+	.icon{
+		width: 145px;
+		height: 145px;
+		position: absolute;
+		top: 85%; 
+		left: 20%; 
+		border-radius: 65%;
+	}
+}
+
+
+
+.contentContainer {
+	width: 65%; 
+	margin: 0 auto;
+	padding: 1%;
+}
+
+.leftSearch {
+	width: 28%; 
+	display: inline-block; 
+	padding: 1%; 
+	height: 500px;
+	vertical-align: top; 
+	margin-top: 3%;
+	font-size: 18px;
+}
+
+.mainContent {
+	width: 72%; 
+	display: inline-block;
+	padding: 1%;
+	margin-top: 3%; 
+	position: relative;
+
+	.classroom {
+		max-width: 100%;
+	}
+
+	.classroomPic {
+		max-width: 100%; 
+		padding: 3%;
+	}
+
+}
+
+.subscribeBox {
+	border: solid 1px black; 
+	max-width: 25%; 
+	position: absolute;
+	top: 125%; 
+	right: 1%;
+
+
+	.subBoxTop {
+		border-bottom:solid #bdc3c7 3px;
+	}
+
+
+	.followContainer{
+		display: flex;
+	}
+
+	.imgContainer{
+		flex: 1;
+	}
+
+	.buttonContainer{
+		flex: 1;
+	}
+
+	.subBoxFollow {
+		max-width: 100%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		flex: 4;
+		text-align: center;
+	}
+
+	.tinyLogo {
+		max-width: 50px;
+	}
+
+	.tiy1 {
+		display: block; 
+	}
+
+	.tiy2 {
+		display: block;
+	}
+
+	.followButton {
+		background: #3498db;
+		vertical-align: top;
+		display: inline-block;
+		float: right;
+	}
+
+
+}
+
+
